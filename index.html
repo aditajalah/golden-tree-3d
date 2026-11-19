@@ -1,0 +1,47 @@
+
+<!DOCTYPE html>
+<html lang="id">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Golden Tree 3D Experience</title>
+
+  <link rel="stylesheet" href="style.css">
+
+  <script type="importmap">
+  {
+    "imports": {
+      "three": "https://cdn.jsdelivr.net/npm/three@0.160.0/build/three.module.js",
+      "three/addons/": "https://cdn.jsdelivr.net/npm/three@0.160.0/examples/jsm/"
+    }
+  }
+  </script>
+</head>
+
+<body>
+
+  <div id="loading">
+    <div class="loader"></div>
+    <p>ENTERING MAGICAL WORLD...</p>
+  </div>
+
+  <header class="header">
+    <h1>GOLDEN TREE</h1>
+    <p>A MAGICAL WORLD BEYOND IMAGINATION</p>
+  </header>
+
+  <div id="scene"></div>
+
+  <div class="footer">
+    <button id="rotation">ROTATION ON</button>
+    <button id="reset">RESET VIEW</button>
+  </div>
+
+  <div class="hint">
+    DRAG TO ROTATE • PINCH TO ZOOM
+  </div>
+
+  <script type="module" src="script.js"></script>
+
+</body>
+</html>
